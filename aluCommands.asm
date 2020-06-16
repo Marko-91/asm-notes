@@ -1,0 +1,9 @@
+add
+sub
+neg
+eq
+get
+lt
+and
+or
+not
