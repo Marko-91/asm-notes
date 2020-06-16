@@ -13,8 +13,8 @@ M=D // addr=LCL+2
 M=M-1 //SP--
 
 @SP
-A=M
-D=M //Data register holds the value SP points at
+A=M // the selected register is now stack's pointer content : RAM[256+]
+D=M // Data register holds the value SP points at
 @addr
 A=M
 M=D // *addr = *SP
